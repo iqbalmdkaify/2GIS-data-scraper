@@ -19,7 +19,7 @@ source your_env_name/bin/activate
 pip install -r requirements.txt
 ```
 
-### Requirements?version
+### Requirements
 
 The items listed below are essential for properly executing the code. Please take note that I've specified a separate section with a step-by-step guide if you're having trouble installing and configuring the *Chrome web driver*.
 

@@ -3,3 +3,4 @@ Lib/
 Scripts/
 Include/
 *.cfg
+share/

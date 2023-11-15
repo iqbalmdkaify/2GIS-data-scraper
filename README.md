@@ -10,12 +10,19 @@ The present project is still in the planning stages, during which time more enha
 
 ### Environments
 
-It's best to use virtual environments. **virtualenv** can be used to run the code after generating the environment file and installing the dependencies from the *requirements.txt* file. To successfully create the environment file and install dependencies and libraries, execute and follow each of the following code steps one at a time. Other components which are **not a part** of the *requirements.txt* file such as web drivers are mentioned in the following sections.
+It's best to use virtual environments. To successfully create the environment file and install dependencies and libraries, execute and follow each of the following code steps one at a time. 
+1. **virtualenv** can be used to run the code after generating the environment file and installing the dependencies from the *requirements.txt* file. Other components which are **not a part** of the *requirements.txt* file such as web drivers are mentioned in the following sections.
 
 ```
 pip install virtualenv
 virtualenv your_env_name
 source your_env_name/bin/activate
+pip install -r requirements.txt
+```
+2. Or you can use **venv** to create a virtual environment.
+```
+python -m venv venv
+.\venv\Scripts\activate
 pip install -r requirements.txt
 ```
 

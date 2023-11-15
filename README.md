@@ -30,7 +30,7 @@ The items listed below are essential for properly executing the code. Please tak
 
 ### How to use
 
-Four **constant variables** must be set in total in the *main.ipynb file*. Verify that the following files are in the same directory or folder: <code>main.ipynb, markup_file, csv_data_file</code>. If they are located in different directories, the **full path** to these files must be included in the code.
+Four **constant variables** must be set in total in the *main.ipynb file*. Verify that the following files are in the same directory or folder: <code>main.ipynb, markup_file, csv_data_file</code>. If they are located in different directories, the **full path** to these files must be included in the code. An example file for the output CSV file(_data.csv_) is provided in the repo, feel free to see the file structure in order to modify the <code>headers</code> variable in the _main_ script.
 
 You can run the script in [Jupyter Notebook](https://jupyter.org/install) after configuring the variables listed below.
 

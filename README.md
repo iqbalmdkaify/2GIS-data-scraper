@@ -59,7 +59,7 @@ python -m venv ./
 source ./Scripts/activate
 ```
 
- 	3. Install the dependencies from the <code>requirements.txt</code> file by running the following command.
+ 3. Install the dependencies from the <code>requirements.txt</code> file by running the following command.
 
 ```
 pip install -r requirements. txt

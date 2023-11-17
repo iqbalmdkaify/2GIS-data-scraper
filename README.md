@@ -128,4 +128,4 @@ pip install beautifulsoup4
 
 ## License Information
 
-[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/) 
+[Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/#) 

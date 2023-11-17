@@ -72,7 +72,7 @@ pip install -r requirements. txt
 
 ##### Set the constants in the <code>main.ipynb</code> file
 
-Four **constant variables** must be set in total in the *main.ipynb file*. Verify that the following files are in the same directory or folder: <code>main.ipynb, markup_file, csv_data_file</code>. If they are located in different directories, the **full path** to these files must be included in the code. An example file for the output CSV file(_data.csv_) is provided in the repo, feel free to see the file structure in order to modify the <code>headers</code> variable in the _main_ script.
+Five **constant variables** must be set in total in the *main.ipynb file*. Verify that the following files are in the same directory or folder: <code>main.ipynb, markup_file, csv_data_file</code>. If they are located in different directories, the **full path** to these files must be included in the code. An example file for the output CSV file(_data.csv_) is provided in the repo, feel free to see the file structure in order to modify the <code>headers</code> variable in the _main_ script.
 
 You can run the script in [Jupyter Notebook](https://jupyter.org/install) after configuring the variables listed below.
 
@@ -82,7 +82,9 @@ You can run the script in [Jupyter Notebook](https://jupyter.org/install) after 
 
 3. Set <code>CSV_DATA_FILENAME</code> to the name of the file where you will store your final output data.
 
-4. Set the <code>URL</code> to your 2GIS *url* where you want to perform the data parsing.
+4. Set the <code>SEARCH</code> to your 2GIS *query_text* which you want to search in the map.
+
+5. Set the <code>CITY_NAME</code> to the *city_name* where you want to search your query.
 
 ##### Run the script from the <code>main.ipynb</code> file
 

@@ -76,7 +76,7 @@ Five **constant variables** must be set in total in the *main.ipynb file*. Verif
 
 You can run the script in [Jupyter Notebook](https://jupyter.org/install) after configuring the variables listed below.
 
-1. Set <code>HEADERS</code> for the csv file in the <code>main.ipynb</code> file. Default *headers* <code>['title', 'type', 'address']</code> are already written which can be changed according to your needs.
+1. Set <code>HEADERS</code> for the csv file in the <code>main.ipynb</code> file. Default *headers* <code>['title', 'type', 'address', 'rating']</code> are already written which can be changed according to your needs.
 
 2. Set <code>MARKUP_FILENAME</code> to the name of the file where the script will store the UI HTML data snapshots temporarily, **e.g.** <code>your_filename.txt</code> 
 

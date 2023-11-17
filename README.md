@@ -1,14 +1,14 @@
-# 2GIS_data_scrapper
+# 2GIS Map data scrapper
 
 ### Project description and working
 
 For database building and personal data-science projects, this is an automated script written in Python (.ipynb) file that scrapes and parses the **2GIS map data** received in the User Interface (UI) of browser. Many websites, such as Google Maps, 2GIS, and others, do not use a free open API call to retrieve map data, which could cause issues for data scientists doing data mining on websites where map data is the main source of information. Various data scraping libraries and methods are available in Python including BeautifulSoup, Selenium, htmllib3, etc. In order for these libraries to scrape web material, a few prerequisites must be met, one of which is that the user interface (UI) must have stale, non-dynamic data (HTML page). Data scientists may encounter difficulties in obtaining the necessary data for their projects because the majority of geo and dynamic data involves online API calls that result in dynamic web pages and content and are not free of cost. I mixed the power of Selenium *web driver* with BeautifulSoup for scraping dynamic Geo data with better accuracy. Basically, the Selenium web driver acts as an automated host client, searching and navigating the data in real time while dynamically modifying the user interface to produce HTML text data snapshots for BeautifulSoup that can be parsed at a later time. The associated website's *CAPTCHA verification* and *API calls limitation* are **circumvented** by the web driver's automated human matched search and navigation timing, resulting in the generation of *balanced and precised data*. The output data is saved in the CSV (.csv) format, which can subsequently be utilized for pre-processing or building databases for assignments and learning.
 
-### Status
+## Status
 
 The present project is still in the planning stages, during which time more enhancements and modifications will be made to support various geo-navigation websites.
 
-### Environments
+## Environments
 
 It's best to use virtual environments. To successfully create the environment file and install dependencies and libraries, execute and follow each of the following code steps one at a time. 
 
@@ -30,7 +30,7 @@ source ./Scripts/activate
 pip install -r requirements.txt
 ```
 
-### Requirements
+## Requirements
 
 The items listed below are essential for properly executing the code. Please take note that I've specified a separate section with a step-by-step guide if you're having trouble installing and configuring the *Chrome web driver*.
 
@@ -39,7 +39,7 @@ The items listed below are essential for properly executing the code. Please tak
 - [Python](https://www.python.org/downloads/) 
 - [Jupyter Notebook](https://jupyter.org/install) 
 
-### How to use and run the file
+## How to use and run the file
 
 Kindly adhere to the instructions for setting up and executing the script.
 
@@ -90,7 +90,7 @@ You can run the script in [Jupyter Notebook](https://jupyter.org/install) after 
 
 ##### Run the last code block for removing potential duplicates if it exists
 
-### Chrome web driver configuration
+## Chrome web driver configuration
 
 Should you want to utilize the project without a virtual environment, you will need to install the necessary libraries manually that the script uses. You can get further information about Chrome Web Driver for Python from this [source](https://reflect.run/articles/installing-chromedriver-and-python-selenium/).
 
@@ -126,6 +126,6 @@ pip install pandas
 pip install beautifulsoup4
 ```
 
-### License Information
+## License Information
 
 [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/) 

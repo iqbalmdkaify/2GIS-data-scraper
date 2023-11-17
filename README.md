@@ -88,6 +88,8 @@ You can run the script in [Jupyter Notebook](https://jupyter.org/install) after 
 
 ##### Run the script from the <code>main.ipynb</code> file
 
+##### Run the last code block for removing potential duplicates if it exists
+
 ### Chrome web driver configuration
 
 Should you want to utilize the project without a virtual environment, you will need to install the necessary libraries manually that the script uses. You can get further information about Chrome Web Driver for Python from this [source](https://reflect.run/articles/installing-chromedriver-and-python-selenium/).

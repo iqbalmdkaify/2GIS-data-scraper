@@ -1,4 +1,4 @@
-# 2GIS Map data scrapper
+# 2GIS Map data scraper
 
 ### Project description and working
 

@@ -1,6 +1,4 @@
 git rm --cached html-markup.txt
-Lib/
-Scripts/
-Include/
-*.cfg
-share/
+.venv/
+*/__pycache__
+__pycache__
